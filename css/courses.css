@@ -1,0 +1,309 @@
+/*__________courses.css__________*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #383838;
+    color: #fff;
+    height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header and Navigation */
+.header {
+    background-color: #252525;
+    padding: 10px 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navigation ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    color: #5D75F7;
+    transition: color 0.5s;
+}
+
+.navigation ul li#search {
+    display: inline-block;
+}
+
+.navigation ul li#search input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.navigation ul li#search button {
+    padding: 8px;
+    background-color: #5D75F7;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navigation ul li#search button:hover {
+    background-color: #A42FD9;
+
+    transition: background-color 0.5s;
+    
+}
+
+/* logo c */
+.navigation ul li#C {
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(90deg, #5D75F7 0%, #A42FDB 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Presentation Section */
+.presentation {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.presentation h1 {
+    color: #fff;
+}
+
+.presentation p {
+   color: #fff;
+}
+
+/* Notes Section */
+.notes {
+    flex: 1;
+    max-width: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notes h2 {
+    color: #ffffff;
+}
+
+.notes textarea,
+.notes input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 16px;
+}
+
+.notes textarea::placeholder,
+.notes input[type="text"]::placeholder {
+    color: #ddd;
+}
+
+.notes button {
+    padding: 10px 20px;
+    background-color: #5D75F7;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.notes button:hover {
+    background-color: #A42FD9;
+    transition: background-color 0.5s;
+}
+
+/*cards section*/
+
+.other-courses {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 0;
+    
+}
+
+.other-courses h1 {
+    color: #fff;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    
+}
+
+.card {
+    background: linear-gradient(90deg, #5D75F7 0%, #A42FD9 180%);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 0 21%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.card h2 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.card p {
+    color: #fff;
+    font-weight: strong;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    color: #5D75F7;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+}
+
+.card button:hover {
+    background-color: #5D75F7;
+    color: #fff;
+}
+
+/* QUIZ */
+.container-quiz {
+    padding: 20px;
+    text-align: center;
+}
+
+.quiz {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-quiz .quiz h2,p {
+    color: #fff;
+}
+
+.quiz button {
+    padding: 10px 20px;
+    background-color: #5D75F7;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.quiz button:hover {
+    background-color: #A42FD9;
+    transition: background-color 0.5s;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #252525;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .contact {
+    margin-bottom: 20px;
+}
+
+.footer .contact h2 {
+    margin-bottom: 10px;
+    color: #5D75F7;
+}
+
+.footer .contact p {
+    margin: 0;
+    color: #A42FD9;
+}
+
+/* Footer Copyright */
+.footer p {
+    margin: 0;
+    color: #fff;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .navigation ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentation,
+    .notes {
+        max-width: 90%;
+        margin: 10px 0;
+    }
+
+    .notes {
+        width: 100%;
+    }
+}

@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #5D75F7 0%, #A42FDB 100%); /* Setăm gradientul pentru fundalul chenarului *//
+
+} 
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header and Navigation */
+.header {
+    background-color: #252525;
+    padding: 10px 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navigation ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    color: #5D75F7;
+    transition: color 0.5s;
+}
+
+.navigation ul li#search {
+    display: inline-block;
+}
+
+.navigation ul li#search input {
+    padding: 5px;
+}
+
+.navigation ul li#search button {
+    padding: 5px;
+    background-color: #5D75F7;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navigation ul li#search button:hover {
+    background-color: #A42FD9;
+}
+
+/* logo c */
+.navigation ul li#C {
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    background: linear-gradient(90deg, #5D75F7 0%, #A42FDB 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Quiz Styling */
+.quiz-container {
+    background-color: #2c2c2c; /* Setăm fundalul chenarului la o nuanță mai închisă de gri */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #252525;
+    color: #fff; /* Setăm culoarea textului la alb */
+}
+
+.quiz-container h2 {
+    color: #5D75F7; /* Setăm culoarea titlului */
+    margin-bottom: 20px;
+}
+
+.question {
+    margin: 20px 0;
+}
+
+.question h3 {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin-bottom: 10px;
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #5D75F7;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-button:hover {
+    background-color: #A42FD9;
+    transition: background-color 0.5s;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #252525;
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Setăm culoarea textului la alb */
+}
+
+.footer .contact {
+    margin-bottom: 20px;
+}
+
+.footer .contact h2 {
+    margin-bottom: 10px;
+    color: #5D75F7;
+}
+
+.footer .contact p {
+    margin: 0;
+    color: #A42FD9;
+}
+
+/* Footer Copyright */
+.footer p {
+    margin: 0;
+    color: #fff;
+}
